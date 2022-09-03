@@ -1,0 +1,454 @@
+/* google-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 80px;
+}
+
+
+/* beginning-of-first-part */
+
+.banner {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 120px;
+
+}
+
+.banner-half {
+    width: 50%;
+
+}
+
+#banner-heading {
+    color: white;
+    margin-left: 40px;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+#banner-text {
+    color: white;
+    font-size: 2em;
+    margin-left: 40px;
+}
+
+.banner-half img {
+    width: 100%;
+
+}
+
+.banner-half button {
+    margin-left: 40px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.banner-half button:hover {
+    background-color: blue;
+}
+
+
+
+/* beginning-of-second-part */
+
+
+.second {
+    display: flex;
+}
+
+
+
+.options-1 {
+    width: 20%;
+    background-color: black;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+
+}
+
+
+.option1-button {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.option1-button button {
+
+    margin: 15px;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 600;
+
+
+}
+
+#red-button {
+    background-color: red;
+
+}
+
+
+.options-2 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.option {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.option-picture img {
+    height: 250px;
+    width: 335px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.option-button button {
+    background-color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 25px;
+    width: 80px;
+    margin-left: 20px;
+
+}
+
+
+.option-info {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+
+
+
+}
+
+.option-info .clock {
+    margin-right: 30px;
+}
+
+.option-text h3 {
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 500;
+
+}
+
+
+.options-22 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+}
+
+.option2 {
+
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+
+
+
+}
+
+.flag {
+    display: flex;
+}
+
+.flag-pic img {
+    height: 70px;
+    width: 100px;
+
+}
+
+.flag h4 {
+    margin: 40px 20px;
+}
+
+
+
+.teams {
+    text-align: center;
+}
+
+.schedule {
+    text-align: center;
+    color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* beginning-of-footer */
+
+
+
+footer {
+    background-color: rgb(18, 18, 18);
+    margin: 40px -80px;
+    padding-bottom: 150px;
+    margin-bottom: -90px;
+
+}
+
+footer .bottom-first {
+
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+footer hr {
+
+    height: 1px;
+    background-color: rgb(45, 43, 43);
+    border: none;
+    width: 1200px;
+
+}
+
+footer .bottom-last {
+    display: flex;
+    color: rgb(196, 196, 196);
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.social-media {
+    background-color: rgb(127, 255, 212);
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+
+
+/* --------
+media quaries
+----------- */
+
+
+/* mobile Devices */
+
+@media only screen and (max-width:688px) {
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 20px;
+    }
+
+    .banner {
+        display: block;
+        background-color: black;
+        border-radius: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .banner-half {
+        width: 100%;
+    }
+
+    #banner-heading {
+        color: white;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 3em;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #banner-text {
+        color: white;
+        font-size: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .banner-half button {
+        margin-left: 120px;
+        margin-bottom: 30px;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+
+    }
+
+
+    .second {
+        display: block;
+    }
+
+    .options-1 {
+        width: 100%;
+        background-color: white;
+
+
+
+    }
+
+
+
+    .options-2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .option-picture img {
+        height: 250px;
+        width: 335px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px
+    }
+
+
+    .options-22 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    footer .bottom-last {
+        display: block;
+        color: rgb(196, 196, 196);
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+/*------------------------ 
+tablet devices 
+--------------------*/
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 30px;
+    }
+
+
+
+
+    .banner {
+        display: flex;
+        background-color: black;
+        border-radius: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    #banner-heading {
+        color: white;
+        margin-left: 40px;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+
+    #banner-text {
+        color: white;
+        font-size: 1em;
+        margin-left: 40px;
+    }
+
+
+
+    .second {
+        display: block;
+    }
+
+
+
+    .options-1 {
+        width: 100%;
+        background-color: white;
+        height: 100px;
+        border-radius: 10px;
+        margin-right: 30px;
+        margin-top: 5px;
+
+
+    }
+
+
+    .option1-button {
+
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+
+
+    .options-2 {
+        width: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .options-22 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+
+
+
+
+
+}
