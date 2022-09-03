@@ -360,6 +360,14 @@ media quaries
 
     }
 
+    footer hr {
+
+        height: 1px;
+        background-color: rgb(45, 43, 43);
+        border: none;
+        width: 300px;
+
+    }
 
 
 }
@@ -448,7 +456,14 @@ tablet devices
 
 
 
+    footer hr {
 
+        height: 1px;
+        background-color: rgb(45, 43, 43);
+        border: none;
+        width: 700px;
+
+    }
 
 
 }
